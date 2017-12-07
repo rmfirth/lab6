@@ -1,0 +1,121 @@
+nohup: ignoring input
+before / Route
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T12:55:10.560Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a28ad6ddbd5ee5bf492e14a',
+  username: 'rmfirth',
+  msg: 'Authenticated as rmfirth',
+  color: 'Green' }
+/ Route if user
+[0mGET / [36m304 [0m14.569 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.174 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.334 ms - -[0m
+(node:23592) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[0mGET /user/profile [36m304 [0m16.814 ms - -[0m
+/logout Route
+[0mGET /logout [36m302 [0m5.396 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.461 ms - 721[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.914 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T12:58:07.074Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m8.788 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m2.329 ms - 735[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.414 ms - -[0m
+login
+{ _id: 5a28ad6ddbd5ee5bf492e14a,
+  email: 'rmfirth@gmail.com',
+  hashed_password: 'tMGIBZJMVwVYTQoMLKULO0EJPfNPtjFXuJcpDjsuQE4=',
+  username: 'rmfirth',
+  __v: 0,
+  color: 'Green' }
+[0mPOST /login [36m302 [0m29.851 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T12:58:23.416Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a28ad6ddbd5ee5bf492e14a',
+  username: 'rmfirth',
+  msg: 'Authenticated as rmfirth',
+  color: 'Green' }
+/ Route if user
+[0mGET / [32m200 [0m2.539 ms - 793[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.274 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.967 ms - -[0m
+[0mGET /user/profile [36m304 [0m4.886 ms - -[0m
+/logout Route
+[0mGET /logout [36m302 [0m1.097 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m2.466 ms - 721[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.296 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T12:58:29.281Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.917 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.847 ms - 1079[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.895 ms - -[0m
+login
+{ _id: 5a28ad6ddbd5ee5bf492e14a,
+  email: 'rmfirth@gmail.com',
+  hashed_password: 'tMGIBZJMVwVYTQoMLKULO0EJPfNPtjFXuJcpDjsuQE4=',
+  username: 'rmfirth',
+  __v: 0,
+  color: 'Green' }
+[0mPOST /login [36m302 [0m4.075 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T15:53:46.989Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a28ad6ddbd5ee5bf492e14a',
+  username: 'rmfirth',
+  msg: 'Authenticated as rmfirth',
+  color: 'Green' }
+/ Route if user
+[0mGET / [32m200 [0m2.141 ms - 1045[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.855 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.643 ms - -[0m
+[0mGET /user/profile [36m304 [0m3.069 ms - -[0m
+/user Route
+[0mGET /user [32m200 [0m1.386 ms - 1601[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.870 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.265 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.867 ms - -[0m
+/user Route
+[0mGET /user [32m200 [0m1.102 ms - 1625[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.699 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.193 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.201 ms - -[0m
+/user Route
+[0mGET /user [32m200 [0m1.304 ms - 1629[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.849 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.704 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.547 ms - -[0m
+/user Route
+[0mGET /user [32m200 [0m1.788 ms - 1633[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.792 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.311 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.513 ms - -[0m
